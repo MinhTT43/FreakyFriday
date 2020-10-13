@@ -1,12 +1,12 @@
 body {
-    margin: 0;
+    margin: 50px 0 0 10px;
 }
 
 .fixed-container-nav {
     position: fixed;
-    left: 94%;
+    left: 91%;
     height: auto;
-    width: 7%;
+    width: 10%;
     top: 35%;
     text-align: center;
     border: solid black;
