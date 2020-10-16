@@ -82,6 +82,12 @@ body {
     border-radius: 10px;
 }
 
+.small {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
 .content td {
     font-size: 15px;
 }
