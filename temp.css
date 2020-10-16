@@ -1,6 +1,14 @@
 body {
     margin: 50px 0 0 10px;
     background-color: eeeeee;
+    font-weight: bold;
+}
+
+.hr-line {
+    border: none;
+    border-top: solid black thin;
+    max-width: 90%;
+    margin: 0;
 }
 
 .td-padding {
@@ -114,4 +122,11 @@ h1 {
 
 #display-mail {
     display: inline-block;
+}
+
+#spacing {
+    line-height: 150%;
+    width: 75%;
+    height: auto;
+    margin: auto;
 }
