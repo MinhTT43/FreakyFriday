@@ -2,6 +2,8 @@ body {
     margin: 50px 0 0 10px;
     background-color: eeeeee;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 .hr-line {
@@ -15,6 +17,7 @@ body {
     padding-left: 60px;
     padding-bottom: 20px;
     margin-top: 20px;
+    padding-top: 30px;
 }
 
 .fixed-container-nav {
@@ -24,7 +27,8 @@ body {
     width: 8.5%;
     top: 10%;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     background-color: 222831;
     font-size: 15px;
     border-radius: 5px;
@@ -50,14 +54,17 @@ body {
 }
 
 .profil {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    position: fixed;
+    top: 30px;
+    bottom: 30px;
     width: 20%;
     height: auto;
     display: block;
     margin-left: 2%;
     background-color: 222831;
     color: #eeeeee;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .profil a {
@@ -65,7 +72,7 @@ body {
 }
 
 .profil p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .content {
@@ -87,17 +94,20 @@ body {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
     text-align: center;
 }
 
 .main-section-placement,
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 .main-section-placement,
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
 
 .remove-bullet {
@@ -114,19 +124,35 @@ h1 {
     border-right: solid thin black;
 }
 
+.checked {
+    color: 00adb5;
+}
+
+.half {
+    width: 30%;
+    display: inline-block;
+    padding-left: auto;
+}
+
 #profile-picture {
     width: 50%;
     height: auto;
     border-radius: 50%;
+    padding-top: 20px;
 }
 
 #display-mail {
     display: inline-block;
 }
 
-#spacing {
-    line-height: 150%;
+.spacing {
+    line-height: 120%;
     width: 75%;
     height: auto;
     margin: auto;
+}
+
+#main-placement {
+    margin-left: 20%;
+    padding-bottom: 100px;
 }

@@ -6,6 +6,7 @@
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="temp.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,36 +23,39 @@
         </nav>
     </header>
 
-    <main>
+    <div class="profil">
+        <img src="img/icon.jpg" alt="" id="profile-picture">
+        <h2 style="color: 393e46; font-weight: bold;">Minh Tien Tran</h2>
+        <p>Fødselsdato: 29.12.1996</p>
+        <p>E-post: <a href="mail-to: minhtt43@gmail.com" id="display-mail">Minhtt43@gmail.com</a></p>
+        <p>Adresse: Lørenveien63 A</p>
+        <p>Postnummer: 0585 LØREN</p>
+
+        <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%;">
+        <h2 style="color: 393e46;  font-weight: bold;">About me</h2>
+        <p class="spacing">I am an energetic, ambitious person who has developed mature and resposible approach to any situation I am prestend with or tasks that I undertake. As a mechanical engineer graduate, and former master student, I am excelt in working with other
+            to acheive a spesific object on time and with best possible result.
+        </p>
+
+        <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%; ">
+        <h2 style="color: 393e46;  font-weight: bold;">Languages</h2>
+        <p class="spacing"> English: Fluent <br> Norwegian: Fluent <br> Vietnames: Fair</p>
+
+        <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%;">
+        <h2 style="color: 393e46; font-weight: bold;">Find Me</h2>
+        <p><a href="https://www.linkedin.com/in/minh-tien-tran-5782b7159/">LinkedIn</a></p>
+    </div>
+
+    <main id="main-placement">
         <section class="main-section-placement">
-            <div class="profil" style="border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
-                <img src="img/icon.jpg" alt="" id="profile-picture">
-                <h2 style="color: 393e46;">Minh Tien Tran</h2>
-                <p>Fødselsdato: 29.12.1996</p>
-                <p>E-post: <a href="mail-to: minhtt43@gmail.com" id="display-mail">Minhtt43@gmail.com</a></p>
-                <p>Adresse: Lørenveien63 A</p>
-                <p>Postnummer: 0585 LØREN</p>
-
-                <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%;">
-                <h2 style="color: 393e46;">About me</h2>
-                <p id="spacing">I am an energetic, ambitious person who has developed mature and resposible approach to any situation I am prestend with or tasks that I undertake. As a mechanical engineer graduate, and former master student, I am excelt in working with
-                    other to acheive a spesific object on time and with best possible result.
-                </p>
-
-                <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%; ">
-                <h2 style="color: 393e46;">Languages</h2>
-                <p>English: Fluent</p>
-                <p>Norwegian: Fluent</p>
-                <p>Vietnames: Fair</p>
-
-                <hr style="border: none; border-top: solid 1px antiquewhite; width: 75%;">
-                <h2 style="color: 393e46;">Find Me</h2>
-                <p><a href="https://www.linkedin.com/in/minh-tien-tran-5782b7159/">LinkedIn</a></p>
-            </div>
-
             <div class="content">
+
+                <div>
+                    <h3 style="color: 00adb5; font-size: 50px;  font-weight: bold;">Curriculum Vitae (CV)</h3>
+                </div>
+
                 <div style="text-align: left; padding-left: 60px;">
-                    <h1 style="color: 00adb5;">Education</h1>
+                    <h1 style="color: 00adb5;  font-weight: bold;">Education</h1>
                     <hr class="hr-line">
                     <table>
                         <tr>
@@ -72,10 +76,10 @@
                                 <br>NTNU Gjøvik</td>
                         </tr>
                     </table>
-
-                    <br>
-
-                    <h1 style="color: 00adb5;">Experience</h1>
+                </div>
+                <br>
+                <div style="text-align: left; padding-left: 60px;">
+                    <h1 style="color: 00adb5;  font-weight: bold;">Experience</h1>
                     <hr class="hr-line">
                     <table>
                         <tr>
@@ -107,15 +111,80 @@
                             </td>
                         </tr>
                     </table>
+                </div>
 
-                    <br>
-                    <table>
-                        <h1 style="color: 00adb5;">Skills</h1>
-                        <hr class="hr-line">
+                <br>
+                <!--Star rating system - https://www.w3schools.com/howto/howto_css_star_rating.asp-->
+                <div style="text-align: left; padding-left: 60px;">
+                    <h1 style="color: 00adb5;  font-weight: bold;">Skills</h1>
+                    <hr class="hr-line">
 
-                    </table>
+                    <div class="half">
+                        <div style="padding-top: 20px;">SolidWorks</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
+
+                    <div class="half">
+                        <div style="padding-top: 20px;">ANSYS</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
+
+                    <div class="half">
+                        <div style="padding-top: 20px;">Fusion360</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
+
+
+                    <div class="half">
+                        <div style="padding-top: 20px;">Java</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
+
+
+                    <div class="half">
+                        <div style="padding-top: 20px;">HTML</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
+
+
+                    <div class="half">
+                        <div style="padding-top: 20px;">CSS</div>
+                        <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span></div>
+                    </div>
 
                 </div>
+            </div>
+
             </div>
         </section>
     </main>
